@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl {
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  outline: none;
+  height: 40px;
+}
+
+.MuiInputBase-input.MuiOutlinedInput-input {
+  padding: 12px 16px;
+  font-size: 14px;
+  color: #919191;
+  opacity: 1;
+  font-weight: normal;
+}
+
+.MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-sizeMedium.MuiInputLabel-outlined.MuiFormLabel-colorPrimary.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-sizeMedium.MuiInputLabel-outlined {
+  font-size: 13px;
+  color: #6c25ff;
+  font-weight: normal;
+}
+
+.MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-sizeMedium.MuiInputLabel-outlined.MuiFormLabel-colorPrimary.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-sizeMedium.MuiInputLabel-outlined {
+  top: -4px;
+}
+
+.MuiTypography-root.MuiTypography-body1.MuiFormControlLabel-label{
+  color: #1D2226;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.MuiButtonBase-root.MuiRadio-root.MuiRadio-colorPrimary.MuiRadio-sizeSmall.PrivateSwitchBase-root.MuiRadio-root.MuiRadio-colorPrimary.MuiRadio-sizeSmall.Mui-checked.MuiRadio-root.MuiRadio-colorPrimary.MuiRadio-sizeSmall {
+color: #6C25FF;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
